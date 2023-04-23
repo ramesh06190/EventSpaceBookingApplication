@@ -16,6 +16,7 @@
 		FAFCC5C029F4B5DC00F6D43E /* EventSpaceBookingApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5BF29F4B5DC00F6D43E /* EventSpaceBookingApplicationTests.swift */; };
 		FAFCC5CA29F4B5DC00F6D43E /* EventSpaceBookingApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5C929F4B5DC00F6D43E /* EventSpaceBookingApplicationUITests.swift */; };
 		FAFCC5CC29F4B5DC00F6D43E /* EventSpaceBookingApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5CB29F4B5DC00F6D43E /* EventSpaceBookingApplicationUITestsLaunchTests.swift */; };
+		FAFCC5D929F4B84200F6D43E /* EventListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5D829F4B84200F6D43E /* EventListingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FAFCC5C529F4B5DC00F6D43E /* EventSpaceBookingApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventSpaceBookingApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFCC5C929F4B5DC00F6D43E /* EventSpaceBookingApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSpaceBookingApplicationUITests.swift; sourceTree = "<group>"; };
 		FAFCC5CB29F4B5DC00F6D43E /* EventSpaceBookingApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSpaceBookingApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAFCC5D829F4B84200F6D43E /* EventListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FAFCC5B129F4B5DB00F6D43E /* Assets.xcassets */,
 				FAFCC5B329F4B5DB00F6D43E /* LaunchScreen.storyboard */,
 				FAFCC5B629F4B5DB00F6D43E /* Info.plist */,
+				FAFCC5D829F4B84200F6D43E /* EventListingsViewController.swift */,
 			);
 			path = EventSpaceBookingApplication;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				FAFCC5AD29F4B5DA00F6D43E /* ViewController.swift in Sources */,
 				FAFCC5A929F4B5DA00F6D43E /* AppDelegate.swift in Sources */,
+				FAFCC5D929F4B84200F6D43E /* EventListingsViewController.swift in Sources */,
 				FAFCC5AB29F4B5DA00F6D43E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
