@@ -1,22 +1,29 @@
 //
-//  EventListingsViewController.swift
+//  CreateViewController.swift
 //  EventSpaceBookingApplication
 //
-//  Created by Adapa,Pydi Venkata Satya Ramesh on 4/22/23.
+//  Created by Bhogireddy,Anjali on 4/23/23.
 //
 
 import UIKit
 
-class EventListingsViewController: UIViewController {
-    
-    @IBOutlet weak var enterCityOutlet: UITextField!
-    
-    
-    @IBOutlet weak var TableView: UITableViewCell!
-    
-    
+class CreateViewController: UIViewController {
     
 
+    @IBOutlet weak var usernameOutlet: UITextField!
+    
+    @IBOutlet weak var emailOutlet: UITextField!
+    
+    
+    @IBOutlet weak var passwordOutlet: UITextField!
+    
+    
+    @IBOutlet weak var conformPasswordOutlet: UITextField!
+    
+    
+    @IBOutlet weak var statusOutlet: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,9 +40,8 @@ class EventListingsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    
 
-    @IBAction func searchButtonActoion(_ sender: Any) {
+    
+    @IBAction func createButtonAction(_ sender: Any) {
     }
 }

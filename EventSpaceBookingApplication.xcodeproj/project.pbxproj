@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342857EC29F63B6800BCEC86 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342857EB29F63B6800BCEC86 /* CreateViewController.swift */; };
 		FAFCC5A929F4B5DA00F6D43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5A829F4B5DA00F6D43E /* AppDelegate.swift */; };
 		FAFCC5AB29F4B5DA00F6D43E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5AA29F4B5DA00F6D43E /* SceneDelegate.swift */; };
 		FAFCC5AD29F4B5DA00F6D43E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5AC29F4B5DA00F6D43E /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342857EB29F63B6800BCEC86 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		FAFCC5A529F4B5DA00F6D43E /* EventSpaceBookingApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSpaceBookingApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFCC5A829F4B5DA00F6D43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFCC5AA29F4B5DA00F6D43E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				FAFCC5B329F4B5DB00F6D43E /* LaunchScreen.storyboard */,
 				FAFCC5B629F4B5DB00F6D43E /* Info.plist */,
 				FAFCC5D829F4B84200F6D43E /* EventListingsViewController.swift */,
+				342857EB29F63B6800BCEC86 /* CreateViewController.swift */,
 			);
 			path = EventSpaceBookingApplication;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342857EC29F63B6800BCEC86 /* CreateViewController.swift in Sources */,
 				FAFCC5AD29F4B5DA00F6D43E /* ViewController.swift in Sources */,
 				FAFCC5A929F4B5DA00F6D43E /* AppDelegate.swift in Sources */,
 				FAFCC5D929F4B84200F6D43E /* EventListingsViewController.swift in Sources */,
