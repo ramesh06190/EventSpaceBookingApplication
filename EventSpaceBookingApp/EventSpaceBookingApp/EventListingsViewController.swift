@@ -1,22 +1,20 @@
 //
 //  EventListingsViewController.swift
-//  EventSpaceBookingApplication
+//  EventSpaceBookingApp
 //
-//  Created by Adapa,Pydi Venkata Satya Ramesh on 4/22/23.
+//  Created by Bhogireddy,Anjali on 4/23/23.
 //
 
 import UIKit
 
 class EventListingsViewController: UIViewController {
     
-    @IBOutlet weak var enterCityOutlet: UITextField!
     
+    @IBOutlet weak var locationOL: UITextField!
     
-    @IBOutlet weak var TableView: UITableViewCell!
+    @IBOutlet weak var statusOL: UILabel!
     
-    
-    
-
+    @IBOutlet weak var searchOL: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,6 +34,6 @@ class EventListingsViewController: UIViewController {
     
     
 
-    @IBAction func searchButtonActoion(_ sender: Any) {
+    @IBAction func searchbtn(_ sender: Any) {
     }
 }

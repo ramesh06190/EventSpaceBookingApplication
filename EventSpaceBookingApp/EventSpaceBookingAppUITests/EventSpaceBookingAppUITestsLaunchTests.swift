@@ -1,13 +1,13 @@
 //
-//  EventSpaceBookingApplicationUITestsLaunchTests.swift
-//  EventSpaceBookingApplicationUITests
+//  EventSpaceBookingAppUITestsLaunchTests.swift
+//  EventSpaceBookingAppUITests
 //
-//  Created by Adapa,Pydi Venkata Satya Ramesh on 4/22/23.
+//  Created by Bhogireddy,Anjali on 4/23/23.
 //
 
 import XCTest
 
-final class EventSpaceBookingApplicationUITestsLaunchTests: XCTestCase {
+final class EventSpaceBookingAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

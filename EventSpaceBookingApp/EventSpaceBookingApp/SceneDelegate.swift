@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  EventSpaceBookingApplication
+//  EventSpaceBookingApp
 //
-//  Created by Adapa,Pydi Venkata Satya Ramesh on 4/22/23.
+//  Created by Bhogireddy,Anjali on 4/23/23.
 //
 
 import UIKit

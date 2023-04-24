@@ -1,29 +1,14 @@
 //
-//  CreateViewController.swift
-//  EventSpaceBookingApplication
+//  LoginViewController.swift
+//  EventSpaceBookingApp
 //
 //  Created by Bhogireddy,Anjali on 4/23/23.
 //
 
 import UIKit
 
-class CreateViewController: UIViewController {
-    
+class LoginViewController: UIViewController {
 
-    @IBOutlet weak var usernameOutlet: UITextField!
-    
-    @IBOutlet weak var emailOutlet: UITextField!
-    
-    
-    @IBOutlet weak var passwordOutlet: UITextField!
-    
-    
-    @IBOutlet weak var conformPasswordOutlet: UITextField!
-    
-    
-    @IBOutlet weak var statusOutlet: UILabel!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,7 +26,4 @@ class CreateViewController: UIViewController {
     }
     */
 
-    
-    @IBAction func createButtonAction(_ sender: Any) {
-    }
 }
