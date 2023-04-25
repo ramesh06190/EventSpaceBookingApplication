@@ -1,29 +1,14 @@
 //
-//  AccountcreateViewController.swift
+//  EventDescriptionViewController.swift
 //  EventSpaceBookingApp
 //
-//  Created by Bhogireddy,Anjali on 4/23/23.
+//  Created by Adapa,Pydi Venkata Satya Ramesh on 4/24/23.
 //
 
 import UIKit
 
-class AccountcreateViewController: UIViewController {
-    
-    @IBOutlet weak var usernameOL: UITextField!
-    
-    
-    @IBOutlet weak var emailOL: UITextField!
-    
-    
-    @IBOutlet weak var passwordOL: UITextField!
-    
-    
-    
-    @IBOutlet weak var statusOL: UILabel!
-    
-    @IBOutlet weak var createbtn: UIButton!
-    
-    
+class EventDescriptionViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,9 +25,5 @@ class AccountcreateViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    
-    @IBAction func createaction(_ sender: Any) {
-    }
-    
+
 }
