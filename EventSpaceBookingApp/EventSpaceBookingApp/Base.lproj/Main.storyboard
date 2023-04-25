@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PpL-FI-dbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="779" y="461"/>
+            <point key="canvasLocation" x="717" y="693"/>
         </scene>
         <!--Event Listings View Controller-->
         <scene sceneID="dcd-Jt-9iC">
@@ -320,6 +320,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="boz-e8-erX"/>
                     <connections>
+                        <outlet property="TableView" destination="kpQ-0r-5pm" id="Lz8-EZ-et9"/>
                         <outlet property="locationOL" destination="ste-qp-Y8g" id="Vl6-Hv-Kpi"/>
                         <outlet property="searchOL" destination="C7B-NZ-JTM" id="RQC-i0-Nra"/>
                         <outlet property="statusOL" destination="r2l-aW-Wdi" id="2zo-iM-WoX"/>
@@ -428,6 +429,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JdV-SK-ZXW"/>
+                    <connections>
+                        <outlet property="AddressOL" destination="fX9-yf-Kdd" id="Hl0-AE-tBk"/>
+                        <outlet property="ImgOL" destination="3cA-YQ-2uf" id="de5-zE-Xax"/>
+                        <outlet property="NameOL" destination="4Sb-Bn-crb" id="9OG-Vl-ZaC"/>
+                        <outlet property="TypeOfEventsOL" destination="2b7-cM-mac" id="JfP-ak-C7n"/>
+                        <outlet property="booking" destination="cwy-kt-F2D" id="xou-tJ-dbK"/>
+                        <outlet property="capacityOL" destination="iic-RU-ALM" id="706-JZ-WWA"/>
+                        <outlet property="contact" destination="Du4-o0-UH9" id="jk3-TN-yH4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bp-dA-eVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -698,9 +708,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nTe-XS-eDx"/>
+        <segue reference="lUL-5L-Rgd"/>
         <segue reference="gmE-9P-YMK"/>
-        <segue reference="D5m-Zy-5q3"/>
+        <segue reference="9Os-MN-Uqj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>

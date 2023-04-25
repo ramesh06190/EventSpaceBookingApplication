@@ -19,7 +19,7 @@
 		34E5AB1C29F5CF6F005694CD /* EventListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5AB1B29F5CF6F005694CD /* EventListingsViewController.swift */; };
 		34E5AB2029F5CFB2005694CD /* AccountcreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5AB1F29F5CFB2005694CD /* AccountcreateViewController.swift */; };
 		FA2244CC29F787CB00BF23E6 /* BookingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2244CB29F787CB00BF23E6 /* BookingDetailsViewController.swift */; };
-		FAFCC5DB29F7690400F6D43E /* EventDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCC5DA29F7690400F6D43E /* EventDescriptionViewController.swift */; };
+		FA2244D029F794EF00BF23E6 /* EventDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2244CF29F794EF00BF23E6 /* EventDescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		34E5AB1B29F5CF6F005694CD /* EventListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListingsViewController.swift; sourceTree = "<group>"; };
 		34E5AB1F29F5CFB2005694CD /* AccountcreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountcreateViewController.swift; sourceTree = "<group>"; };
 		FA2244CB29F787CB00BF23E6 /* BookingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsViewController.swift; sourceTree = "<group>"; };
-		FAFCC5DA29F7690400F6D43E /* EventDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionViewController.swift; sourceTree = "<group>"; };
+		FA2244CF29F794EF00BF23E6 /* EventDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 				347E21F229F5B4F100783DB9 /* Info.plist */,
 				34E5AB1B29F5CF6F005694CD /* EventListingsViewController.swift */,
 				34E5AB1F29F5CFB2005694CD /* AccountcreateViewController.swift */,
-				FAFCC5DA29F7690400F6D43E /* EventDescriptionViewController.swift */,
 				FA2244CB29F787CB00BF23E6 /* BookingDetailsViewController.swift */,
+				FA2244CF29F794EF00BF23E6 /* EventDescriptionViewController.swift */,
 			);
 			path = EventSpaceBookingApp;
 			sourceTree = "<group>";
@@ -270,10 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFCC5DB29F7690400F6D43E /* EventDescriptionViewController.swift in Sources */,
 				FA2244CC29F787CB00BF23E6 /* BookingDetailsViewController.swift in Sources */,
 				347E21E929F5B4F000783DB9 /* ViewController.swift in Sources */,
 				347E21E529F5B4F000783DB9 /* AppDelegate.swift in Sources */,
+				FA2244D029F794EF00BF23E6 /* EventDescriptionViewController.swift in Sources */,
 				34E5AB1C29F5CF6F005694CD /* EventListingsViewController.swift in Sources */,
 				34E5AB2029F5CFB2005694CD /* AccountcreateViewController.swift in Sources */,
 				347E21E729F5B4F000783DB9 /* SceneDelegate.swift in Sources */,

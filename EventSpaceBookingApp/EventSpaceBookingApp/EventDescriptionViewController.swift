@@ -9,6 +9,15 @@ import UIKit
 
 class EventDescriptionViewController: UIViewController {
 
+    @IBOutlet weak var NameOL: UILabel!
+    @IBOutlet weak var ImgOL: UIImageView!
+    
+    @IBOutlet weak var booking: UIButton!
+    @IBOutlet weak var contact: UILabel!
+    @IBOutlet weak var TypeOfEventsOL: UILabel!
+    @IBOutlet weak var capacityOL: UILabel!
+    @IBOutlet weak var AddressOL: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

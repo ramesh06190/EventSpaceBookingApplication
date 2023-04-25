@@ -15,6 +15,11 @@ class EventListingsViewController: UIViewController {
     @IBOutlet weak var statusOL: UILabel!
     
     @IBOutlet weak var searchOL: UIButton!
+    
+    
+    @IBOutlet weak var TableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
