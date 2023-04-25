@@ -561,6 +561,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Confirm Booking"/>
                                 <connections>
+                                    <action selector="ConfirmBooking:" destination="1J5-n9-3Fk" eventType="touchUpInside" id="7Je-J2-Euf"/>
                                     <segue destination="EsR-W3-E0s" kind="show" id="Qvf-Sp-qty"/>
                                 </connections>
                             </button>
@@ -606,6 +607,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rGw-Mq-DFP"/>
+                    <connections>
+                        <outlet property="AddressOL" destination="FLY-wA-13s" id="NgY-oP-toY"/>
+                        <outlet property="DateAvailableStatus" destination="Ya3-fv-gQb" id="aMZ-JB-NQh"/>
+                        <outlet property="DateOL" destination="WFg-uc-8ZU" id="XnV-Nq-wm9"/>
+                        <outlet property="NameOL" destination="NrV-Ll-yb4" id="epX-py-yL9"/>
+                        <outlet property="ToDateOL" destination="yVZ-HC-bCd" id="ZlT-eT-L01"/>
+                        <outlet property="priceOL" destination="wZ9-Gm-RRA" id="IPI-TM-yYf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AV3-EC-1QJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -689,6 +698,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="nTe-XS-eDx"/>
         <segue reference="gmE-9P-YMK"/>
         <segue reference="D5m-Zy-5q3"/>
     </inferredMetricsTieBreakers>

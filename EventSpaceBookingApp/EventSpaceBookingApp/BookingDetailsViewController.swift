@@ -8,7 +8,23 @@
 import UIKit
 
 class BookingDetailsViewController: UIViewController {
-
+    
+    
+    @IBOutlet var NameOL: UILabel!
+    
+    @IBOutlet weak var AddressOL: UILabel!
+    
+    @IBOutlet weak var DateOL: UITextField!
+    
+    @IBOutlet weak var DateAvailableStatus: UILabel!
+    @IBOutlet weak var ToDateOL: UITextField!
+    
+    @IBOutlet weak var priceOL: UILabel!
+    
+    
+    @IBAction func ConfirmBooking(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
